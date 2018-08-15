@@ -1,0 +1,28 @@
+{
+  "name": "PerformanceJavascript",
+  "version": "1.0.0",
+  "description": "testing performance of javascript function or methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulnizam/PerformanceJavascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulnizam/PerformanceJavascript/issues"
+  },
+  "homepage": "https://github.com/abdulnizam/PerformanceJavascript#readme",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-register": "^6.11.6"
+  }
+}
